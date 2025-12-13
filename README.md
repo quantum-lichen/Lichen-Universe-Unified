@@ -4,6 +4,9 @@ ALL my project in ONE place
 
 Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : un univers de projets open source autour de nouveaux formats de données, d’architectures cognitives, d’expérimentations quantiques et de temps universel, conçu pour explorer des systèmes informatiques réellement symbiotiques
 
+# 🌌 Lichen Universe Unified : The Cognitive Operating System
+### *Universal. Fractal. Symbiotic.*
+
 ![Branches](https://img.shields.io/badge/branches-20%2B-blue)
 ![Projects](https://img.shields.io/badge/projects-19-green)
 ![License](https://img.shields.io/badge/license-MIT-purple)
@@ -13,8 +16,7 @@ Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : 
 ![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)
 ![Quantum](https://img.shields.io/badge/quantum-ready-blueviolet.svg)
 
-# 🌌 Lichen Universe Unified : The Cognitive Operating System
-### *Universal. Fractal. Symbiotic.*
+
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.12345-b31b1b.svg)](https://arxiv.org/abs/2512.12345)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
