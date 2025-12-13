@@ -1,18 +1,19 @@
-# Lichen-Universe  
+# Lichen-Universe
 ALL my project in ONE place
 
-![Branches](https://img.shields.io/badge/branches-20+-https://img.shields.io/badge/projects-19-greenhttps://img.shields.io/badge/license-MIT-purple
+![Branches](https://img.shields.io/badge/branches-20%2B-blue)
+![Projects](https://img.shields.io/badge/projects-19-green)
+![License](https://img.shields.io/badge/license-MIT-purple)
 
-# 🌌 Lichen Universe Unified : The Cognitive Operating System  
+# 🌌 Lichen Universe Unified : The Cognitive Operating System
 ### *Universal. Fractal. Symbiotic.*
 
-[![arXiv](https://img.shields.io/badge/arXiv-2512.123 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow 
-[![Rust](https://img.shields.io/badge/Rust-1.75+-orange 
-[![Quantum Ready](https://img.shields.io/badge/Quantum-AETHER  
-[![Discord](https://img.shields.io/discord/1234567890.svg?label=Lichen%20Community&logo=discord&color=5865F
-***
+[![arXiv](https://img.shields.io/badge/arXiv-2512.12345-b31b1b.svg)](https://arxiv.org/abs/2512.12345)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/Rust-1.75%2B-orange.svg?logo=rust)](https://www.rust-lang.org/)
+[![Quantum Ready](https://img.shields.io/badge/Quantum-AETHER%20V3-blueviolet)](core/uict/quantum/)
+[![Discord](https://img.shields.io/discord/1234567890.svg?label=Lichen%20Community&logo=discord&color=5865F2)](https://discord.gg/lichen-os)
 
 ## 🌟 La Vision : Réinventer l'Informatique pour la Symbiose
 
