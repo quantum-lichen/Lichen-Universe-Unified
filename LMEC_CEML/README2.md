@@ -1,321 +1,192 @@
-# 🧠 Cognitive Entropy Minimization Law
-
-## CEML / LMC — Cognitive Selection Principle
-
 [![Status](https://img.shields.io/badge/status-experimental-blue)](docs/ceml/CEML_theory_en.md)
 [![Language](https://img.shields.io/badge/lang-EN%20%7C%20FR-purple)](docs/ceml/CEML_theory_en.md)
 [![Type](https://img.shields.io/badge/type-theory%20%2B%20PoC-orange)](docs/ceml/CEML_theory_en.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+[![Branches](https://img.shields.io/badge/branches-20%2B-blue)](https://github.com/quantum-lichen/Lichen-Universe)
+[![Projects](https://img.shields.io/badge/projects-19-green)](https://github.com/quantum-lichen/Lichen-Universe/projects)
+[![Build Status](https://github.com/quantum-lichen/Lichen-Universe/actions/workflows/rust.yml/badge.svg)](https://github.com/quantum-lichen/Lichen-Universe/actions)
+[![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](https://www.rust-lang.org/)
+[![Quantum](https://img.shields.io/badge/quantum-ready-blueviolet.svg)](core/uict/quantum/)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.12345-b31b1b.svg)](https://arxiv.org/abs/2512.12345)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
 
-> **A candidate cognitive selection law for intelligent systems under informational and energetic constraints.**
+# 🧠 Cognitive Entropy Minimization Law (CEML)
+## Loi de Minimisation de l’Entropie Cognitive (LMC)
+
+> **A Candidate Selection Principle for Intelligent Systems**
 >
-> **Une loi candidate de sélection cognitive pour les systèmes intelligents sous contraintes informationnelles et énergétiques.**
+> *Un principe candidat de sélection pour les systèmes intelligents*
 
 ---
 
-## 🌟 Overview / Vue d’ensemble
-
-### 🇬🇧 English
-
-CEML proposes a simple but operational principle:
-
-> **An intelligent system should prefer informational structures that strongly align with the current context while minimizing entropic cost.**
-
-This principle formalizes a trade-off already implicit in cognition, learning, and inference:
-**contextual coherence vs informational complexity**.
+**Topics:**
+`rust` `ai` `os` `webassembly` `quantum-computing` `golden-ratio` `aether` `data-format` `system-design` `cognitive-architecture` `cognitive-systems` `qiskit` `biomimicry` `quantum-simulation` `ai-alignment` `fractal-architecture` `quantum-computing-research` `universal-time` `fc496` `lichen-os`
 
 ---
 
-### 🇫🇷 Français
+# 🇬🇧 ENGLISH VERSION
 
-La LMC (Loi de Minimisation de l’Entropie Cognitive) formalise une intuition simple :
+## 1. Overview
+**CEML** proposes a simple but operational principle: an intelligent system should preferentially select informational structures that strongly align with the current context while minimizing their entropic cost.
 
-> **Un système intelligent devrait préférer les structures d’information fortement cohérentes avec le contexte, tout en restant aussi peu coûteuses que possible en termes entropiques.**
+This principle formalizes a fundamental trade-off implicit in cognition, learning, and inference: **Contextual Coherence vs. Informational Complexity**.
 
-Cette loi explicite un compromis fondamental déjà présent dans la cognition et l’apprentissage :
-**cohérence contextuelle vs coût informationnel**.
+## 2. Mathematical Formulation
 
----
+### 2.1 Canonical Form
+The core objective function determines the fitness score $J(s)$ of a candidate structure $s$:
 
-## 🧮 Core Formulation / Formulation centrale
+$$J(s) = \frac{\mathcal{C}(s \mid \Omega)}{\mathcal{H}(s) + \epsilon}$$
 
-### Canonical form
+**Definitions:**
+* **$s$**: The candidate structure (e.g., token sequence, thought, memory).
+* **$\Omega$**: The external context or ground truth.
+* **$\mathcal{C}(s \mid \Omega)$**: **Contextual Coherence**. Represents semantic alignment or utility.
+* **$\mathcal{H}(s)$**: **Entropic Cost**. Represents Shannon entropy, complexity, or metabolic cost.
+* **$\epsilon$**: A strictly positive regularization constant ($\epsilon > 0$).
+* **$s^* = \arg\max_s J(s)$**: The selected optimal structure.
 
-[
-J(s) = \frac{\mathcal{C}(s \mid \Omega)}{\mathcal{H}(s) + \epsilon}
-]
+### 2.2 Regularized Fractal Form
+To improve numerical stability and allow for scale-dependent behaviors, we introduce parameters $\alpha$ and $\beta$:
 
-Where / Où :
+$$J_{\alpha,\beta}(s) = \frac{\mathcal{C}(s \mid \Omega)^{\alpha}} {(\mathcal{H}(s) + \epsilon)^{\beta}}$$
 
-* ( \mathcal{C}(s \mid \Omega) )
-  Contextual coherence: alignment between structure (s) and context (\Omega)
+* **$\alpha$**: Controls **Selectivity** (sensitivity to context).
+* **$\beta$**: Controls **Compression Pressure** (sensitivity to complexity).
 
-* ( \mathcal{H}(s) )
-  Entropic cost: complexity, disorder, memory or energetic cost
+## 3. Interaction with Transformer Architectures & Iteration Factor
 
-* ( \epsilon > 0 )
-  Small stabilizing constant
+The CEML provides a deterministic framework to analyze and control the **Autoregressive Iteration Loop** of Transformer models. In standard LLMs, the "iteration factor" is governed by static hyperparameters (Temperature, Top-K). CEML replaces these with a dynamic, energy-based evaluation at each time step $t$.
 
-* ( s^* = \arg\max_s J(s) )
-  Preferred structure under constraints
+### 3.1 Mapping CEML to Transformer Components
+We map the abstract variables of the law to specific tensors within the attention mechanism:
 
----
+$$J(t) = \frac{\mathcal{C}_{\text{Attn}}(t)}{\mathcal{H}_{\text{Logits}}(t) + \epsilon}$$
 
-### 🔁 Regularized / Fractal Form (Recommended)
+* **$\mathcal{C}_{\text{Attn}}$ (Coherence):** Corresponds to the **Attention Weights**. A sharp attention focus (Sparse Attention) on relevant tokens implies high coherence.
+    * $\mathcal{C} \approx \max(\text{Softmax}(\frac{QK^T}{\sqrt{d_k}}))$
+* **$\mathcal{H}_{\text{Logits}}$ (Entropy):** Corresponds to the **Shannon Entropy of the output probability distribution** over the vocabulary at step $t$.
+    * $\mathcal{H} = -\sum P(w_i) \log P(w_i)$
 
-To improve numerical stability and allow multi-scale behavior:
+### 3.2 The Dynamic Iteration Control (Adaptive Sampling)
+Instead of using a fixed Temperature ($T$), CEML suggests a **Dynamic Iteration Factor**.
+* If $\mathcal{H}$ is high (model is confused/hallucinating), the CEML score drops. The system should **pause** or **increase constraints** (lower $T$).
+* If $\mathcal{H}$ is low and $\mathcal{C}$ is high (Resonance), the system creates a "tunnel effect" (Flow State), accelerating generation.
 
-[
-J_{\alpha,\beta}(s) =
-\frac{\mathcal{C}(s \mid \Omega)^{\alpha}}
-{\left(\mathcal{H}(s) + \epsilon\right)^{\beta}}
-]
+### 3.3 Hallucination Detection via Iteration Gradients
+By monitoring the derivative of the CEML score over time ($\frac{dJ}{dt}$), we can predict model failure modes:
+* **Collapse (Looping):** $H(t) \to 0$ rapidly. The model repeats the same phrase. $J(t)$ spikes artificially.
+* **Divergence (Hallucination):** Coherence $\mathcal{C}$ remains high (plausible grammar) but Entropy $\mathcal{H}$ fluctuates wildly between tokens. The CEML score becomes volatile.
 
-* ( \alpha ) controls **contextual selectivity**
-* ( \beta ) controls **compression pressure**
-* Enables **scale-dependent** or **fractal cognitive selection**
+> **Operational Implication:** The CEML suggests we can stop generation *before* the token is sampled if the $J(t)$ score falls below a critical threshold $\tau_{\text{crit}}$, saving computational energy.
 
-> This form does **not** change the principle — it generalizes it.
+## 4. Critical Clarification
 
----
+> **⚠️ Truth $\neq$ Coherence**
+> CEML describes a **selection preference** under constraints, not an epistemic guarantee of truth. A structure can have high coherence (fit the context perfectly) yet be factually false if the context itself is biased. It optimizes for *plausibility and efficiency*.
 
-## 🧠 Important Clarification (Truth vs Coherence)
+## 5. Cognitive Regimes
 
-### 🇬🇧
+The ratio $C/H$ naturally defines four qualitative regimes:
 
-CEML **does not guarantee truth**.
+| Regime | Coherence $\mathcal{C}$ | Entropy $\mathcal{H}$ | Interpretation |
+| :--- | :---: | :---: | :--- |
+| **Resonance** | **High** | **Low** | **Optimal State.** Stable, efficient, and aligned cognition. |
+| **Dissonance** | Low | Low | Rigid structure, but misaligned with context. |
+| **Chaos** | Low | High | Noisy, unstable cognition. High energy, zero utility. |
+| **Hallucination** | *High (Local)* | *Misestimated* | Fragile state. Overconfident but often statistically abnormal. |
 
-It describes **selection preference under constraints**, not epistemic certainty.
-High coherence may still correspond to biased or incomplete representations if the context itself is biased.
+## 6. Operational Pipeline
+CEML acts as a filter in the cognitive pipeline:
+$$\text{Generation} \rightarrow \text{CEML Evaluation } J(s) \rightarrow \text{Selection } (s^*) \rightarrow \text{Memory/Action}$$
 
-### 🇫🇷
-
-La LMC **ne garantit pas la vérité**.
-
-Elle décrit une **préférence de sélection sous contraintes**, et non une certitude épistémique.
-Une forte cohérence peut correspondre à une représentation fausse si le contexte est lui-même biaisé.
-
-This distinction is intentional and essential.
-
----
-
-## 🧭 Cognitive Regimes / Régimes cognitifs
-
-The ratio naturally defines four qualitative regimes:
-
-| Regime            | Coherence    | Entropy      | Interpretation                   |
-| ----------------- | ------------ | ------------ | -------------------------------- |
-| **Resonance**     | High         | Low          | Stable, efficient cognition      |
-| **Dissonance**    | Low          | Low          | Rigid but misaligned structures  |
-| **Chaos**         | Low          | High         | Noisy, unstable cognition        |
-| **Hallucination** | High (local) | Misestimated | Overconfident but fragile states |
-
-These regimes emerge **without ad-hoc assumptions**.
+## 7. Status & Context
+* **UICT (Unified Information Compression Theory):** Describes global informational dynamics (**Physics**).
+* **CEML (Cognitive Entropy Minimization Law):** Describes local selection rules (**Mind**).
 
 ---
 
-## 🧪 Proof of Concept — Probability Distributions
+# 🇫🇷 VERSION FRANÇAISE
 
-### Setup
+## 1. Vue d’ensemble
+La **LMC** formalise une intuition simple : un système intelligent devrait préférer les structures d’information fortement cohérentes avec le contexte, tout en restant aussi peu coûteuses que possible en termes entropiques.
 
-* ( \mathcal{H}(s) ) → Shannon entropy
-* ( \mathcal{C}(s \mid \Omega) ) → maximal probability (focus / dominance)
-* ( J = C / (H + \epsilon) )
+Cette loi explicite un compromis fondamental déjà présent dans la cognition et l’apprentissage : **Cohérence Contextuelle vs Coût Informationnel**.
 
-Script:
+## 2. Formulation Mathématique
 
-```
-docs/ceml/CEML_demo_distributions.py
-```
+### 2.1 Forme Canonique
+La fonction objectif détermine le score d'aptitude $J(s)$ d'une structure candidate $s$ :
 
-### Observed behavior
+$$J(s) = \frac{\mathcal{C}(s \mid \Omega)}{\mathcal{H}(s) + \epsilon}$$
 
-* Highly ordered distributions → **maximal CEML score**
-* Near-uniform distributions → **minimal score**
-* Monotonic decay of score as entropy increases (at comparable coherence)
+**Définitions :**
+* **$s$** : Structure candidate (pensée, séquence de tokens, souvenir).
+* **$\Omega$** : Le contexte externe ou la vérité terrain.
+* **$\mathcal{C}(s \mid \Omega)$** : **Cohérence Contextuelle**. Représente l'alignement sémantique ou l'utilité.
+* **$\mathcal{H}(s)$** : **Coût Entropique**. Représente l'entropie de Shannon, la complexité ou le coût métabolique.
+* **$\epsilon$** : Constante de régularisation strictement positive ($\epsilon > 0$).
+* **$s^* = \arg\max_s J(s)$** : La structure optimale sélectionnée.
 
-This validates **qualitative correctness**, not final optimality.
+### 2.2 Forme Fractale Régularisée
+Pour améliorer la stabilité numérique et permettre des comportements dépendants de l'échelle, nous introduisons $\alpha$ et $\beta$ :
 
----
+$$J_{\alpha,\beta}(s) = \frac{\mathcal{C}(s \mid \Omega)^{\alpha}} {(\mathcal{H}(s) + \epsilon)^{\beta}}$$
 
-## 🔧 CEML as an Operational Mechanism
+* **$\alpha$** : Contrôle la **Sélectivité** (sensibilité au contexte).
+* **$\beta$** : Contrôle la **Pression de Compression** (sensibilité à la complexité).
 
-CEML can be used as:
+## 3. Interaction avec les Architectures Transformer et le Facteur d'Itération
 
-### 🇬🇧
+La LMC fournit un cadre déterministe pour analyser et contrôler la **Boucle d'Itération Auto-régressive** des modèles Transformer. Dans les LLM standards, le "facteur d'itération" est régi par des hyperparamètres statiques (Température, Top-K). La LMC les remplace par une évaluation énergétique dynamique à chaque pas de temps $t$.
 
-* a **post-generation selection criterion** for LLM decoding,
-* a **memory filtering rule** (retain high-J structures),
-* a **trajectory stability metric** for cognitive systems.
+### 3.1 Correspondance LMC / Composants Transformer
+Nous mappons les variables abstraites de la loi à des tenseurs spécifiques dans le mécanisme d'attention :
 
-### 🇫🇷
+$$J(t) = \frac{\mathcal{C}_{\text{Attn}}(t)}{\mathcal{H}_{\text{Logits}}(t) + \epsilon}$$
 
-* un **critère de sélection post-génération** (LLM),
-* un **filtre de mémoire cognitive**,
-* une **mesure de stabilité de trajectoires mentales**.
+* **$\mathcal{C}_{\text{Attn}}$ (Cohérence) :** Correspond aux **Poids d'Attention**. Une focalisation nette de l'attention (*Sparse Attention*) sur les tokens pertinents implique une haute cohérence.
+    * $\mathcal{C} \approx \max(\text{Softmax}(\frac{QK^T}{\sqrt{d_k}}))$
+* **$\mathcal{H}_{\text{Logits}}$ (Entropie) :** Correspond à **l'Entropie de Shannon de la distribution de probabilité** de sortie sur le vocabulaire à l'étape $t$.
+    * $\mathcal{H} = -\sum P(w_i) \log P(w_i)$
 
-### Conceptual pipeline
+### 3.2 Contrôle Dynamique de l'Itération (Échantillonnage Adaptatif)
+Au lieu d'utiliser une Température fixe ($T$), la LMC suggère un **Facteur d'Itération Dynamique**.
+* Si $\mathcal{H}$ est élevée (modèle confus/hallucination), le score LMC chute. Le système doit **faire une pause** ou **augmenter les contraintes** (baisser $T$).
+* Si $\mathcal{H}$ est basse et $\mathcal{C}$ est haute (Résonance), le système crée un "effet tunnel" (État de Flow), accélérant la génération.
 
-```
-Generation → CEML Evaluation → Selection → Memory / Action
-```
+### 3.3 Détection d'Hallucination via Gradients d'Itération
+En surveillant la dérivée du score LMC dans le temps ($\frac{dJ}{dt}$), nous pouvons prédire les modes d'échec du modèle :
+* **Effondrement (Boucle) :** $H(t) \to 0$ rapidement. Le modèle répète la même phrase. $J(t)$ grimpe artificiellement.
+* **Divergence (Hallucination) :** La Cohérence $\mathcal{C}$ reste haute (grammaire plausible) mais l'Entropie $\mathcal{H}$ fluctue violemment entre les tokens. Le score LMC devient volatil.
 
-CEML acts as an **implicit cost function**, even when not explicitly optimized.
+> **Implication Opérationnelle :** La LMC suggère que nous pouvons arrêter la génération *avant* que le token ne soit échantillonné si le score $J(t)$ tombe sous un seuil critique $\tau_{\text{crit}}$, économisant ainsi de l'énergie de calcul.
 
----
+## 4. Clarification Importante
 
-## 🔮 Extensions & Research Directions
+> **⚠️ Vérité $\neq$ Cohérence**
+> La LMC décrit une **préférence de sélection** sous contraintes, et non une garantie de vérité. Une structure peut avoir une haute cohérence tout en étant factuellement fausse si le contexte est biaisé. Elle optimise *la plausibilité et l'efficacité*.
 
-* Text / response evaluation
+## 5. Régimes Cognitifs
 
-  * ( \mathcal{C} ): embedding similarity (context ↔ response)
-  * ( \mathcal{H} ): cross-entropy, token surprise, compression ratio
+Le ratio $C/H$ définit naturellement quatre régimes :
 
-* Cognitive dynamics
+| Régime | Cohérence $\mathcal{C}$ | Entropie $\mathcal{H}$ | Interprétation |
+| :--- | :---: | :---: | :--- |
+| **Résonance** | **Haute** | **Basse** | **État Optimal.** Cognition stable, efficace et alignée. |
+| **Dissonance** | Basse | Basse | Structure rigide, mais désalignée du contexte. |
+| **Chaos** | Basse | Haute | Cognition bruitée et instable. Haute énergie, utilité nulle. |
+| **Hallucination** | *Haute (Locale)* | *Mal estimée* | État fragile. Excès de confiance mais statistiquement anormal. |
 
-  * sequence-level CEML scores
-  * detection of unstable or hallucinatory regimes
+## 6. Pipeline Opérationnel
+La LMC agit comme un filtre dans le pipeline cognitif :
+$$\text{Génération} \rightarrow \text{Évaluation LMC } J(s) \rightarrow \text{Sélection } (s^*) \rightarrow \text{Mémoire/Action}$$
 
-* Human alignment
-
-  * correlation with perceived clarity, usefulness, or truthfulness
-
----
-
-## 🌐 Position within Lichen Universe
-
-* **UICT / Lichen** → global informational dynamics
-* **CEML / LMC** → local cognitive selection law
-
-> **UICT explains why information compresses.
-> CEML explains how minds choose.**
-
-They are complementary, not redundant.
-
----
-
-## ⚠️ Status & Disclaimer
-
-CEML / LMC is proposed as:
-
-* a **candidate cognitive selection principle**,
-* compatible with Free Energy, MDL, and thermodynamic constraints,
-* explicitly **testable and falsifiable**.
-
-It is **not claimed** to be a proven physical law.
+## 7. Statut et Contexte
+* **UICT (Unified Information Compression Theory) :** Décrit la dynamique informationnelle globale (**Physique**).
+* **CEML (Cognitive Entropy Minimization Law) :** Décrit les règles de sélection locales (**Esprit**).
 
 ---
 
-# 🧠 Cognitive Entropy Minimization Law (CEML / LMEC)
-
-[![Status](https://img.shields.io/badge/status-experimental-blue)](docs/ceml/CEML_theory_en.md)
-[![Language](https://img.shields.io/badge/lang-EN%20%7C%20FR-purple)](docs/ceml/CEML_theory_en.md)
-[![Theory](https://img.shields.io/badge/type-theory%20%2B%20PoC-orange)](docs/ceml/CEML_theory_en.md)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-
-> A unified selection principle for cognitive systems, balancing **contextual coherence** and **entropic cost**.
-
-CEML (Loi de Minimisation de l’Entropie Cognitive) propose une métrique simple pour décider quelles structures d’information un système intelligent devrait préférer, sous contraintes d’énergie et de mémoire.
-
----
-
-## 🌟 Overview
-
-CEML formalise une intuition simple :
-
-> Un système intelligent devrait préférer les représentations qui **collent fortement au contexte** tout en restant **aussi compressées que possible**.
-
-Cette idée est capturée par la fonction :
-
-\[
-J(s) = \frac{\mathcal{C}(s \mid \Omega)}{\mathcal{H}(s) + \epsilon}
-\]
-
-- \(\mathcal{C}(s \mid \Omega)\) : cohérence contextuelle (similarité avec le contexte \(\Omega\)).  
-- \(\mathcal{H}(s)\) : coût entropique (complexité / désordre / coût énergétique).  
-- \(s^\* = \arg\max_s J(s)\) : la structure “préférée” par le système.
-
----
-
-## 📚 Theory Documents
-
-- 🇬🇧 **CEML Theory (English)**  
-  Formulation complète, liens avec Free Energy, Shannon, Landauer, et exemples qualitatifs.  
-  → [`docs/ceml/CEML_theory_en.md`](docs/ceml/CEML_theory_en.md)
-
-- 🇫🇷 **Théorie LMC (Français)**  
-  Version française alignée, avec les mêmes formules et interprétations.  
-  → [`docs/ceml/CEML_theorie_fr.md`](docs/ceml/CEML_theorie_fr.md)
-
-Les deux documents décrivent :
-
-- l’axiome de moindre action cognitive,  
-- la définition de \(\mathcal{C}\) et \(\mathcal{H}\),  
-- les 4 régimes (Résonance, Dissonance, Chaos, Hallucination),  
-- les liens avec Friston (Free Energy), Shannon (MDL) et Landauer (coût thermique).
-
----
-
-## 🧪 Proof of Concept (Distributions)
-
-Un premier PoC numérique explore CEML sur des **distributions de probabilité** :
-
-- \(\mathcal{H}(s)\) = entropie de Shannon,  
-- \(\mathcal{C}(s \mid \Omega)\) = probabilité maximale (focus / dominance),  
-- \(J(s) = C / (H + \epsilon)\).
-
-Script Python :
-
-docs/ceml/CEML_demo_distributions.py
-
-text
-
-Exécution :
-
-cd docs/ceml
-python CEML_demo_distributions.py
-
-text
-
-Le script affiche, pour chaque distribution :
-
-- Entropy \(H\)  
-- Coherence \(C\)  
-- CEML Score \(J = C / (H + \epsilon)\)
-
-Comportement observé (qualitativement) :
-
-- structures très ordonnées (entropie basse, pic dominant) → **score maximal** ;  
-- structures presque uniformes ou très désordonnées → **score minimal** ;  
-- le score décroît de façon monotone à mesure que l’entropie augmente, à cohérence comparable.
-
----
-
-## 🔮 Next Steps
-
-Idées d’extensions prévues dans l’écosystème Lichen / FC‑496 :
-
-- Appliquer CEML à des **phrases / réponses de modèle** :  
-  - \(\mathcal{C}\) via similarité cosinus entre embeddings (contexte vs réponse),  
-  - \(\mathcal{H}\) via log‑probabilité moyenne (cross‑entropy) ou ratio de compression.
-
-- Utiliser CEML comme **critère de sélection** :  
-  - pour reclasser des candidats de décodage LLM,  
-  - pour filtrer des mémoires / cellules FC‑496,  
-  - pour analyser des trajectoires cognitives (séquences d’états).
-
-- Explorer des corrélations entre score CEML et :  
-  - jugements humains (clarté, vérité perçue, utilité),  
-  - stabilité de réseaux (moins d’oscillations chaotiques, moins d’hallucinations).
-
----
-
-## ⚠️ Status & Disclaimer
-
-CEML / LMC est proposé comme :
-
-- un **principe de sélection cognitif candidat**,  
-- compatible avec plusieurs théories existantes,  
-- formulé de façon opérationnelle (implémentable et testable).
-
-Ce n’est **pas** présenté comme une loi physique démontrée, mais comme un cadre expérimental pour guider la conception et l’analyse de systèmes cognitifs (IA ou biologiques) à l’intérieur de l’Univers Lichen.
+### 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
