@@ -1,6 +1,11 @@
 # Cognitive Entropy Minimization Law (CEML)
 ## Loi de Minimisation de l’Entropie Cognitive (LMC)
 
+[![Status](https://img.shields.io/badge/status-experimental-blue)](docs/ceml/CEML_theory_en.md)
+[![Language](https://img.shields.io/badge/lang-EN%20%7C%20FR-purple)](docs/ceml/CEML_theory_en.md)
+[![Type](https://img.shields.io/badge/type-theory%20%2B%20PoC-orange)](docs/ceml/CEML_theory_en.md)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+
 **A Candidate Selection Principle for Intelligent Systems**
 *Un principe candidat de sélection pour les systèmes intelligents*
 
