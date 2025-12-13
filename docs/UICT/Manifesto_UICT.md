@@ -1,7 +1,3 @@
-Voici le manifeste reformatté, structuré de manière professionnelle avec une mise en page académique claire et les équations mathématiques normalisées.
-
-***
-
 # The Unified Information Compression Theory (UICT)
 ### Full Manifesto
 
