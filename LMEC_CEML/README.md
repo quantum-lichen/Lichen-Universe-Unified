@@ -1,17 +1,3 @@
-Parfait 😼
-Je te le refais **clé en main**, **EN + FR dans le même fichier**, avec **toutes les améliorations intégrées**, y compris :
-
-* la **formule régularisée / fractale** (α, β),
-* la clarification vérité ≠ cohérence,
-* la stabilité mathématique,
-* le lien explicite avec l’apprentissage / pipeline,
-* une posture *paper-ready* sans surpromesse.
-
-👉 **Copie/colle tel quel**.
-Je garde ton ton : sérieux, sobre, pas mystique, pas bullshit.
-
----
-
 # 🧠 Cognitive Entropy Minimization Law
 
 ## CEML / LMC — Cognitive Selection Principle
