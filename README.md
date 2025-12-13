@@ -49,9 +49,9 @@ Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : 
 
 ## 🎮 Live Demos
 
-- [Genesis-QC](https://genesis-qc.quantum-lichen.io) - Mental wellness app
-- [FC-496 Visualizer](https://fc496.quantum-lichen.io) - Interactive cell editor
-- [CEML Monitor](https://ceml.quantum-lichen.io) - Real-time entropy tracking
+- [Genesis-QC](https://genesis-qc.quantum-lichen.io) (Lien fonctionel avenir) - Mental wellness app
+- [FC-496 Visualizer](https://fc496.quantum-lichen.io) (Lien fonctionel avenir) - Interactive cell editor
+- [CEML Monitor](https://ceml.quantum-lichen.io) (Lien fonctionel avenir) - Real-time entropy tracking
 
 
 ## 🌟 La Vision : Réinventer l'Informatique pour la Symbiose
