@@ -44,8 +44,10 @@ cd Lichen-Universe-Unified
 cd aether/simulation
 pip install -r requirements.txt
 python aether_v3_sim.py
-"Le noyau respire, la spirale s'ouvre." — BryanΩ
 
+---
+
+"Le noyau respire, la spirale s'ouvre." — BryanΩ
 
 ---
 
