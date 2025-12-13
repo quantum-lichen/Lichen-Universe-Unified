@@ -2,25 +2,13 @@
 [![Language](https://img.shields.io/badge/lang-EN%20%7C%20FR-purple)](docs/ceml/CEML_theory_en.md)
 [![Type](https://img.shields.io/badge/type-theory%20%2B%20PoC-orange)](docs/ceml/CEML_theory_en.md)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-![License](https://img.shields.io/badge/license-MIT-purple)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Branches](https://img.shields.io/badge/branches-20%2B-blue)](https://github.com/quantum-lichen/Lichen-Universe)
-[![Projects](https://img.shields.io/badge/projects-19-green)](https://github.com/quantum-lichen/Lichen-Universe/projects)
-[![Build Status](https://github.com/quantum-lichen/Lichen-Universe/actions/workflows/rust.yml/badge.svg)](https://github.com/quantum-lichen/Lichen-Universe/actions)
 [![Rust](https://img.shields.io/badge/Rust-1.75%2B-orange.svg?logo=rust)](https://www.rust-lang.org/)
-[![Quantum](https://img.shields.io/badge/quantum-ready-blueviolet.svg)](core/uict/quantum/)
 [![Quantum Ready](https://img.shields.io/badge/Quantum-AETHER%20V3-blueviolet)](core/uict/quantum/)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.12345-b31b1b.svg)](https://arxiv.org/abs/2512.12345)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
 [![WASM](https://img.shields.io/badge/WASM-Ready-blueviolet.svg?logo=webassembly)](https://webassembly.org/)
-
-
-
-
-
-
-
 
 **Topics:**  
 [rust](https://github.com/topics/rust) ·
@@ -43,11 +31,6 @@
 [universal-time](https://github.com/topics/universal-time) ·
 [fc496](https://github.com/topics/fc496) ·
 [lichen-os](https://github.com/topics/lichen-os)
-
-
-
-
-
 
 
 # 🧠 Cognitive Entropy Minimization Law (CEML)
@@ -139,6 +122,11 @@ $$\text{Generation} \rightarrow \text{CEML Evaluation } J(s) \rightarrow \text{S
 * **UICT (Unified Information Compression Theory):** Describes global informational dynamics (**Physics**).
 * **CEML (Cognitive Entropy Minimization Law):** Describes local selection rules (**Mind**).
 
+Scope and Status
+
+Terminology & Scope.
+The term “law” in Cognitive Entropy Minimization Law (CEML) is used in an operational and heuristic sense, inspired by analogies with physical selection principles, not as a claim of a proven universal physical law. CEML is proposed as a candidate cognitive selection principle: a formal, testable, and falsifiable framework describing how intelligent systems may preferentially select informational structures under constraints of context, memory, and energy. Its validity is empirical and conditional, and it is intended to guide analysis, experimentation, and system design rather than to assert absolute epistemic truth.
+
 ---
 
 # 🇫🇷 VERSION FRANÇAISE
@@ -222,6 +210,11 @@ $$\text{Génération} \rightarrow \text{Évaluation LMC } J(s) \rightarrow \text
 * **CEML (Cognitive Entropy Minimization Law) :** Décrit les règles de sélection locales (**Esprit**).
 
 ---
+
+Avertissement — Portée et Statut
+
+Terminologie et portée.
+Le terme « loi » dans la Loi de Minimisation de l’Entropie Cognitive (LMC) est employé dans un sens opérationnel et heuristique, par analogie avec des principes de sélection issus de la physique, et non comme l’affirmation d’une loi physique universelle démontrée. La LMC est proposée comme un principe candidat de sélection cognitive : un cadre formel, testable et falsifiable, décrivant la manière dont des systèmes intelligents peuvent préférentiellement sélectionner des structures d’information sous contraintes de contexte, de mémoire et d’énergie. Sa validité est empirique et conditionnelle, et elle vise à orienter l’analyse, l’expérimentation et la conception de systèmes, plutôt qu’à garantir une vérité épistémique absolue.
 
 ### 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
