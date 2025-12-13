@@ -117,7 +117,7 @@ python ceml_demo.py
 ```
 
 ### Run Genesis-QC App
-Live demo: https://genesis-qc.quantum-lichen.io
+Live demo: https://genesis-qc.quantum-lichen.io ((Lien fonctionel avenir)
 ```
 
 ---
