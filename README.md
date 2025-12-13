@@ -15,6 +15,31 @@ ALL my project in ONE place
 [![Quantum Ready](https://img.shields.io/badge/Quantum-AETHER%20V3-blueviolet)](core/uict/quantum/)
 [![Discord](https://img.shields.io/discord/1234567890.svg?label=Lichen%20Community&logo=discord&color=5865F2)](https://discord.gg/lichen-os)
 
+**Topics:**  
+[rust](https://github.com/topics/rust) ·
+[ai](https://github.com/topics/ai) ·
+[os](https://github.com/topics/os) ·
+[webassembly](https://github.com/topics/webassembly) ·
+[quantum-computing](https://github.com/topics/quantum-computing) ·
+[golden-ratio](https://github.com/topics/golden-ratio) ·
+[aether](https://github.com/topics/aether) ·
+[data-format](https://github.com/topics/data-format) ·
+[system-design](https://github.com/topics/system-design) ·
+[cognitive-architecture](https://github.com/topics/cognitive-architecture) ·
+[cognitive-systems](https://github.com/topics/cognitive-systems) ·
+[qiskit](https://github.com/topics/qiskit) ·
+[biomimicry](https://github.com/topics/biomimicry) ·
+[quantum-simulation](https://github.com/topics/quantum-simulation) ·
+[ai-alignment](https://github.com/topics/ai-alignment) ·
+[fractal-architecture](https://github.com/topics/fractal-architecture) ·
+[quantum-computing-research](https://github.com/topics/quantum-computing-research) ·
+[universal-time](https://github.com/topics/universal-time) ·
+[fc496](https://github.com/topics/fc496) ·
+[lichen-os](https://github.com/topics/lichen-os)
+
+
+
+
 ## 🌟 La Vision : Réinventer l'Informatique pour la Symbiose
 
 **Lichen OS** n'est pas une surcouche. C'est un **nouveau paradigme** construit *from scratch* pour l'ère de l'IA et de la physique de l'information.  
