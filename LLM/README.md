@@ -28,7 +28,6 @@ Malgré un état émotionnel instable ou accéléré en surface, la structure pr
 ## **2. Contexte**
 
 Les LLM (Large Language Models) sont entraînés à prédire le prochain token en maximisant la probabilité suivante :
-
 $$P(x_t \mid x_{<t})$$
 
 Cette fonction objective favorise intrinsèquement les séquences :
