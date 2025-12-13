@@ -25,3 +25,40 @@ Individual components are developed and versioned in dedicated repositories.
 > - **Research**: Theoretical work under evaluation
 > - **Experimental**: Implemented and tested, not production-ready
 > - **Prototype**: Demonstration-level application
+>
+> - ## 🏛️ Publications & Preprints
+
+The Lichen ecosystem is supported by ongoing theoretical and experimental research.
+Several papers are in preparation or under active development.
+
+### 📌 Papers & Preprints
+
+- **FC-496: Fixed-Structure Cognitive Data Cells for Resilient Systems**  
+  *Status*: Draft (arXiv submission planned)  
+  *Topics*: data formats, error correction, structural coherence  
+
+- **UICT: Unified Information Compression Theory**  
+  *Status*: Research preprint  
+  *Topics*: information theory, compression, physical modeling  
+
+- **CEML: Cognitive Entropy Minimization as a Signal for AI Stability**  
+  *Status*: Draft  
+  *Topics*: AI alignment, hallucination detection, metrics  
+
+- **H-Scale: Harmonic Metrics for Machine-Assisted Decision Support**  
+  *Status*: Conceptual paper  
+  *Topics*: ethics-aware systems, evaluation metrics  
+
+### 📖 Citation (BibTeX – placeholder)
+
+```bibtex
+@misc{lichen2025fc496,
+  title        = {FC-496: Fixed-Structure Cognitive Data Cells},
+  author       = {Ouellette, Bryan},
+  year         = {2025},
+  note         = {Preprint, arXiv submission planned}
+}
+
+DOIs and arXiv identifiers will be added upon publication.
+
+
