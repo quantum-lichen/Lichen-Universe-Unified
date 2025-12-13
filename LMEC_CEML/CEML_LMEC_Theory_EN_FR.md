@@ -115,6 +115,9 @@ Complexity** (High Coherence, Low-to-Medium Entropy).
 The Cognitive Entropy Minimization Law offers a rigorous framework for understanding intelligence. It suggests that "understanding" is effectively a compression algorithm. By maximizing the $C/H$ ratio, biological 
 and artificial agents ensure their survival by maintaining alignment with reality while conserving the energy required to represent it.
 
+Terminology & Scope.
+The term “law” in Cognitive Entropy Minimization Law (CEML) is used in an operational and heuristic sense, inspired by analogies with physical selection principles, not as a claim of a proven universal physical law. CEML is proposed as a candidate cognitive selection principle: a formal, testable, and falsifiable framework describing how intelligent systems may preferentially select informational structures under constraints of context, memory, and energy. Its validity is empirical and conditional, and it is intended to guide analysis, experimentation, and system design rather than to assert absolute epistemic truth.
+
 ***
 
 
@@ -229,3 +232,9 @@ adéquation contextuelle), convergeant vers une **Complexité Ordonnée** (Haute
 
 La Loi de Minimisation de l'Entropie Cognitive offre un cadre rigoureux pour comprendre l'intelligence. Elle suggère que "comprendre" est en fait un algorithme de compression. En maximisant le ratio $C/H$, les agents 
 biologiques et artificiels assurent leur survie en maintenant un alignement avec la réalité tout en conservant l'énergie nécessaire pour la représenter.
+
+---
+
+Terminologie et portée.
+Le terme « loi » dans la Loi de Minimisation de l’Entropie Cognitive (LMC) est employé dans un sens opérationnel et heuristique, par analogie avec des principes de sélection issus de la physique, et non comme l’affirmation d’une loi physique universelle démontrée. La LMC est proposée comme un principe candidat de sélection cognitive : un cadre formel, testable et falsifiable, décrivant la manière dont des systèmes intelligents peuvent préférentiellement sélectionner des structures d’information sous contraintes de contexte, de mémoire et d’énergie. Sa validité est empirique et conditionnelle, et elle vise à orienter l’analyse, l’expérimentation et la conception de systèmes, plutôt qu’à garantir une vérité épistémique absolue.
+
