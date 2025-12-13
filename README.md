@@ -1,5 +1,8 @@
 # Lichen-Universe
+
 ALL my project in ONE place
+
+Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : un univers de projets open source autour de nouveaux formats de données, d’architectures cognitives, d’expérimentations quantiques et de temps universel, conçu pour explorer des systèmes informatiques réellement symbiotiques
 
 ![Branches](https://img.shields.io/badge/branches-20%2B-blue)
 ![Projects](https://img.shields.io/badge/projects-19-green)
