@@ -59,11 +59,6 @@
 
 ---
 
-**Topics:**
-`rust` `ai` `os` `webassembly` `quantum-computing` `golden-ratio` `aether` `data-format` `system-design` `cognitive-architecture` `cognitive-systems` `qiskit` `biomimicry` `quantum-simulation` `ai-alignment` `fractal-architecture` `quantum-computing-research` `universal-time` `fc496` `lichen-os`
-
----
-
 # 🇬🇧 ENGLISH VERSION
 
 ## 1. Overview
