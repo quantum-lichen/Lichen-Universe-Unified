@@ -160,7 +160,3 @@ DOIs et identifiants arXiv seront ajoutés après publication.
 
 ***
 
-Tu peux copier–coller ça dans ton `README.md` puis ajuster les liens/repos si tu en ajoutes d’autres ou si des noms changent.
-
-[1](https://img.shields.io/badge/branches-20+-blue)
-[2](https://img.shields.io/badge/projects-19-green)
