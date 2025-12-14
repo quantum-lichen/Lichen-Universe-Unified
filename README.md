@@ -48,7 +48,7 @@ Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : 
 
 ## 🗺️ Carte des Projets
 
- |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
+
  |  **Projet**          | **Description**                          | **Statut**       | **Lien**                                                      |
  |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
  | **Lichen-OS.1.3**    | Noyau théorique (CEML, FC-496, π-Time)   | Théorie          | [GitHub](https://github.com/quantum-lichen/Lichen-OS.1.3)     |
@@ -56,7 +56,7 @@ Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : 
  | **FC-496**           | Format de données universel              | Prototypage      | [GitHub](https://github.com/quantum-lichen/FC-496)            |
  | **π-Time**           | Système temporel universel               | Démo             | [GitHub](https://github.com/quantum-lichen/pi-Time)           |
  | **Symbiose-Terminal**| Interface humaine                        | Bêta             | [GitHub](https://github.com/quantum-lichen/Symbiose-Terminal) |
- |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
+ 
 
 ## 🚀 Comment Commencer ?
 1. **Lis le [glossaire](docs/glossary.md)** pour comprendre les concepts clés.
@@ -106,13 +106,13 @@ le moedèle de la cellule peut etre mulitiplier et diviser, de facon fractal de 
 
 ## ⚡ Benchmarks & Performance
 
-|------------------------|-----------------|---------------|--------------------|
+
 | Opération              | FC-496 (Rust)   | JSON (Legacy) | Gain               |
 | :----------------------| :-------------- | :------------ | :------------------|
 | **Création Cellule**   | 12 µs           | 417 µs        | **35x**            |
 | **Indexation Spatiale**| 60 µs (O(1))    | 1.2 ms        |**20x**             |
-| **Résilience**         | 60% corruption  | 0%            | **Indestructible** |
-|------------------------|-----------------|---------------|--------------------|
+| **Résilience**         | 60% corruption  | 0%            | **Indestructible** 
+
 *(Chiffres expérimentaux à interpréter comme PoC de performance et de résilience.)*
 
 ***
