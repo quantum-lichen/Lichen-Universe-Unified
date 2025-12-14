@@ -47,13 +47,16 @@ Lichen‑Universe est le point d’entrée unifié de l’écosystème Lichen : 
 **Un écosystème pour les systèmes cognitifs auto-organisés.**
 
 ## 🗺️ Carte des Projets
-   **Projet**         | **Description**                          | **Statut**       | **Lien**                          |
- |--------------------|------------------------------------------|------------------|-----------------------------------|
- | **Lichen-OS.1.3**  | Noyau théorique (CEML, FC-496, π-Time)   | Théorie         | [GitHub](https://github.com/quantum-lichen/Lichen-OS.1.3) |
- | **lichen-OS**      | Implémentation Rust (fc496, hse, uict)   | Alpha           | [GitHub](https://github.com/quantum-lichen/lichen-OS) |
- | **FC-496**          | Format de données universel             | Prototypage     | [GitHub](https://github.com/quantum-lichen/FC-496) |
- | **π-Time**          | Système temporel universel              | Démo            | [GitHub](https://github.com/quantum-lichen/pi-Time) |
- | **Symbiose-Terminal**| Interface humaine                       | Bêta           | [GitHub](https://github.com/quantum-lichen/Symbiose-Terminal) |
+
+ |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
+ |  **Projet**          | **Description**                          | **Statut**       | **Lien**                                                      |
+ |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
+ | **Lichen-OS.1.3**    | Noyau théorique (CEML, FC-496, π-Time)   | Théorie          | [GitHub](https://github.com/quantum-lichen/Lichen-OS.1.3)     |
+ | **lichen-OS**        | Implémentation Rust (fc496, hse, uict)   | Alpha            | [GitHub](https://github.com/quantum-lichen/lichen-OS)         |
+ | **FC-496**           | Format de données universel              | Prototypage      | [GitHub](https://github.com/quantum-lichen/FC-496)            |
+ | **π-Time**           | Système temporel universel               | Démo             | [GitHub](https://github.com/quantum-lichen/pi-Time)           |
+ | **Symbiose-Terminal**| Interface humaine                        | Bêta             | [GitHub](https://github.com/quantum-lichen/Symbiose-Terminal) |
+ |----------------------|------------------------------------------|------------------|---------------------------------------------------------------|
 
 ## 🚀 Comment Commencer ?
 1. **Lis le [glossaire](docs/glossary.md)** pour comprendre les concepts clés.
@@ -103,12 +106,13 @@ le moedèle de la cellule peut etre mulitiplier et diviser, de facon fractal de 
 
 ## ⚡ Benchmarks & Performance
 
-| Opération             | FC-496 (Rust)   | JSON (Legacy) | Gain         |
-| :-------------------- | :-------------- | :------------ | :----------- |
-| **Création Cellule**  | 12 µs           | 417 µs        | **35x**      |
-| **Indexation Spatiale** | 60 µs (O(1)) | 1.2 ms        | **20x**      |
-| **Résilience**        | 60% corruption  | 0%            | **Indestructible** |
-
+|------------------------|-----------------|---------------|--------------------|
+| Opération              | FC-496 (Rust)   | JSON (Legacy) | Gain               |
+| :----------------------| :-------------- | :------------ | :------------------|
+| **Création Cellule**   | 12 µs           | 417 µs        | **35x**            |
+| **Indexation Spatiale**| 60 µs (O(1))    | 1.2 ms        |**20x**             |
+| **Résilience**         | 60% corruption  | 0%            | **Indestructible** |
+|------------------------|-----------------|---------------|--------------------|
 *(Chiffres expérimentaux à interpréter comme PoC de performance et de résilience.)*
 
 ***
@@ -201,15 +205,17 @@ python aether_v3_sim.py
 Ce dépôt sert de point d’entrée unifié vers l’écosystème de recherche Lichen.  
 Les implémentations sont organisées dans des dépôts dédiés :
 
-| Project Name      | Description                                                                 | Status       | Repository |
-|-------------------|-----------------------------------------------------------------------------|-------------|-----------|
+|-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
+| Project Name      | Description                                                                                       | Status       | Repository                                      |
+|-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
 | **Lichen OS**     | Architecture cognitive expérimentale (format machine-native, résilience, métriques d’alignement). | Experimental | https://github.com/quantum-lichen/lichen-OS.1.3 |
-| **FC-496 Core**   | Format de cellule 496 bits avec correction d’erreur et contraintes structurelles. | Experimental | https://github.com/quantum-lichen/fc-496 |
-| **UICT**          | Unified Information Compression Theory liant compression, cohérence et stabilité. | Research     | https://github.com/quantum-lichen/UICT |
-| **CEML**          | Cognitive Entropy Minimization Law – métriques pour détecter les états cognitifs instables. | Research     | https://github.com/quantum-lichen/CEML |
-| **H-Scale**       | Métrique harmonique pour la décision assistée (cohérence, énergie, résonance, durabilité). | Draft        | https://github.com/quantum-lichen/H-Scale |
-| **CRAID**         | Mécanismes de redondance et reconstruction inspirés du RAID pour systèmes cognitifs. | Experimental | https://github.com/quantum-lichen/CRAID |
-| **Genesis-QC**    | Prototype d’application orientée support cognitif / mental.                  | Prototype    | https://github.com/quantum-lichen/genesis-qc |
+| **FC-496 Core**   | Format de cellule 496 bits avec correction d’erreur et contraintes structurelles.                 | Experimental | https://github.com/quantum-lichen/fc-496        |
+| **UICT**          | Unified Information Compression Theory liant compression, cohérence et stabilité.                 | Research     | https://github.com/quantum-lichen/UICT          | 
+| **CEML**          | Cognitive Entropy Minimization Law – métriques pour détecter les états cognitifs instables.       | Research     | https://github.com/quantum-lichen/CEML          |
+| **H-Scale**       | Métrique harmonique pour la décision assistée (cohérence, énergie, résonance, durabilité).        | Draft        | https://github.com/quantum-lichen/H-Scale       |
+| **CRAID**         | Mécanismes de redondance et reconstruction inspirés du RAID pour systèmes cognitifs.              | Experimental | https://github.com/quantum-lichen/CRAID         |
+| **Genesis-QC**    | Prototype d’application orientée support cognitif / mental.                                       | Prototype    | https://github.com/quantum-lichen/genesis-qc    |
+|-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
 
 > **Status**  
 > - **Draft** : Conceptuel / début de formalisation  
