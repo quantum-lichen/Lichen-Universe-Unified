@@ -30,7 +30,9 @@
 * **Géométrie Fractale** : FC-496 encode les états mentaux dans un espace E8×E8.
 * **Temporalité Universelle** : π-Time assure la cohérence temporelle globale.
 
+
 **Problèmes résolus par LCE :**
+
 
 * Hallucinations → CEML
 * Fragilité des données → FC-496
@@ -39,7 +41,9 @@
 
 ---
 
+
 ## **Architecture Technique**
+
 
 ```mermaid
 graph TD
@@ -55,7 +59,9 @@ graph TD
 
 ---
 
+
 ## **Composants Clés**
+
 
 | Composant          | Fonction principale                               | Lien avec Lichen OS                   |
 | ------------------ | ------------------------------------------------- | ------------------------------------- |
@@ -66,7 +72,9 @@ graph TD
 | CEML Filter        | Filtrage des hallucinations (C(Ψ)/H(Ψ) ≥ 0.618)   | Seuil d’ignition                      |
 | H-Scale Evaluator  | Cohérence + énergie + durabilité ≥ 0.9            | Garantit éthique et durabilité        |
 
+
 ---
+
 
 ## **Pseudo-Code Python**
 
@@ -82,6 +90,7 @@ lce.setup_world_model(UICT)
 
 ### Fusion Sensorielle
 
+
 ```python
 fused_state, energy = lce.emergent_sensor_fusion({
     'vision': vision_data,
@@ -91,6 +100,7 @@ fused_state, energy = lce.emergent_sensor_fusion({
 ```
 
 ### Réverbération et Action
+
 
 ```python
 if energy > lce.ignition_threshold:
@@ -105,17 +115,22 @@ else:
 
 ---
 
+
 ## **Modules Rust Clés**
 
 1. **FC-496** → Compression et encodage fractal.
 2. **CEML** → Évaluation cohérence/entropie.
 3. **π-Time** → Synchronisation universelle.
 
+
 *(Le code Rust complet se trouve dans `/core/fc496`, `/core/ceml` et `/core/pi_time`.)*
+
 
 ---
 
+
 ## **Exemple d’Exécution**
+
 
 ```text
 [LCE] Initialisation terminée.
@@ -124,6 +139,7 @@ else:
 [LCE] Administration d'immunothérapie ciblée.
 [LCE] Épisode mémorisé en VDFS.
 ```
+
 
 ---
 
