@@ -205,7 +205,7 @@ python aether_v3_sim.py
 Ce dépôt sert de point d’entrée unifié vers l’écosystème de recherche Lichen.  
 Les implémentations sont organisées dans des dépôts dédiés :
 
-|-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
+
 | Project Name      | Description                                                                                       | Status       | Repository                                      |
 |-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
 | **Lichen OS**     | Architecture cognitive expérimentale (format machine-native, résilience, métriques d’alignement). | Experimental | https://github.com/quantum-lichen/lichen-OS.1.3 |
@@ -215,7 +215,7 @@ Les implémentations sont organisées dans des dépôts dédiés :
 | **H-Scale**       | Métrique harmonique pour la décision assistée (cohérence, énergie, résonance, durabilité).        | Draft        | https://github.com/quantum-lichen/H-Scale       |
 | **CRAID**         | Mécanismes de redondance et reconstruction inspirés du RAID pour systèmes cognitifs.              | Experimental | https://github.com/quantum-lichen/CRAID         |
 | **Genesis-QC**    | Prototype d’application orientée support cognitif / mental.                                       | Prototype    | https://github.com/quantum-lichen/genesis-qc    |
-|-------------------|---------------------------------------------------------------------------------------------------|--------------|-------------------------------------------------|
+
 
 > **Status**  
 > - **Draft** : Conceptuel / début de formalisation  
