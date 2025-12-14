@@ -1,0 +1,19 @@
+# Build artifacts
+target/
+**/*.rs.bk
+*.pyc
+__pycache__/
+
+# Environments
+.env
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
