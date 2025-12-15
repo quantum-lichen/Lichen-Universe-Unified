@@ -3,8 +3,12 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF1493?style=for-the-badge&logo=streamlit)](https://streamlit.io)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)](https://docker.com)
 
-**RAID = mortel. LICHEN = vivant éternel.**  
-**φ-optimal (1.618x overhead)** • **Math-proof** • **Quantum-ready**
+RAID=2 pannes | LICHEN=3+ (φ-optimal 1.618x)
+Math-proof • Quantum-ready
+
+🐳 1-CLIC:
+pip install streamlit numpy
+streamlit run app.py
 
 ## 🎬 **TEST L'APOCALYPSE** (60% nœuds NUKED → 100% data OK)
 
