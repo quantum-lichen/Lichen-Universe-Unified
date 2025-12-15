@@ -1,5 +1,7 @@
 # 🟢 **LICHEN STORAGE** : Stockage IMMORTEL
 
+https://gemini.google.com/share/2635e43825db
+
 **60% Apocalypse OK** | **φ-optimal 1.618x** | **Math-proof** | **Quantum-ready**
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
