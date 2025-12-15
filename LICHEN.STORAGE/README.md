@@ -47,4 +47,4 @@ def check_integrity(fragments):
 If this saved your data from a solar flare, drop a star! ⭐
 
 ---
-*Concept by [Your Name]. Built for the post-silicon era.*
+*Concept by Bryan Ouellette. Built for the post-silicon era.*
