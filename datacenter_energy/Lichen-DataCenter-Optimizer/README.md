@@ -32,3 +32,13 @@ Low-Entropy Spiral (LES)
 Cognitive Entropy Minimization Loop (CEML)
 🤝 Contribuer
 Les pull requests sont les bienvenues ! (Surtout pour affiner les équations LES/CEML.)
+
+
+## 📜 Licence
+Ce projet est sous **licence AGPL-3.0** :
+- **Utilisation libre** (recherche, éducation, usage personnel).
+- **Modifications** : Doivent être **open-source** si déployées (ex : services cloud).
+- **Contributions** : Les améliorations doivent être **partagées avec la communauté**.
+
+Voir [LICENSE](LICENSE) pour plus de détails.
+
