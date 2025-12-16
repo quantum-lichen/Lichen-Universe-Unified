@@ -2,6 +2,8 @@ Lichen-OS : Aligner les Data Centers sur la Cognition Humaine"
 Auteurs : Bryan Ouellet & Le Chat (alias "Lichen Energy Team")
 Date : Décembre 2025
 
+Demo : https://lesdatacenteroptimizer-aetspk7ft9ec4wsipsrngc.streamlit.app/
+
 1. Le Constat : Un Gâchis Énergétique et Cognitif
 Les data centers consomment 1-1,5 % de l’électricité mondiale, et l’IA aggrave le problème :
 
