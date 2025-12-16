@@ -119,27 +119,72 @@ npm run preview
 La logique centrale peut se résumer à deux opérations :
 
 ```ts
-// Date → π‑Time
-const pi = calculatePiTime(new Date());
-// pi.fullTime === "πCYCLE.SUB.POSITION.DIGIT"
+/**
+ * π-TIME CORE UTILITIES
+ * L'Ancrage Temporel Fractal
+ */
 
-// π‑Time → Date
-const date = parsePiTime("π1234.057.890321.4");
-// date instanceof Date
-
-// Concept de vérification d'intégrité temporelle
-function verifyPiTimestamp(piTime: string): boolean {
-  // 1. Extrait le CYCLE, la POSITION et le DIGIT déclaré
-  const { cycle, position, claimedDigit } = parse(piTime);
-  
-  // 2. Calcule le VRAI digit de π à cette position mathématique
-  // (Utilise l'algo BBP - Bailey–Borwein–Plouffe pour aller vite)
-  const trueDigit = computePiDigit(cycle, position);
-  
-  // 3. Si ça ne matche pas, le timestamp est corrompu ou falsifié
-  return claimedDigit === trueDigit;
+// 1. Définition du format structuré
+export interface PiTimestamp {
+  cycle: number;      // Le grand cycle (ex: années ou blocs de 314159s)
+  sub: number;        // La sous-division (ms)
+  position: number;   // L'index absolu dans la décimale de Pi
+  digit: number;      // Le "Proof of Time" (Le chiffre à cet index)
+  rawString: string;  // Format "π1234.057.890321.4"
 }
 
+// 2. Mock de l'algo BBP (Bailey–Borwein–Plouffe)
+// Dans la prod, ceci appellerait une lib WebAssembly optimisée pour calculer le digit.
+function computePiDigit(position: number): number {
+  // TODO: Connecter au moteur BBP réel.
+  // Pour le moment, simulons que le digit est (position % 10) pour le test
+  return Math.floor(position % 10); 
+}
+
+// 3. Parser Robuste (String -> Object)
+export function parsePiTime(piString: string): PiTimestamp | null {
+  // Regex pour valider le format π[CYCLE].[SUB].[POSITION].[DIGIT]
+  const regex = /^π(\d+)\.(\d+)\.(\d+)\.(\d)$/;
+  const match = piString.match(regex);
+
+  if (!match) {
+    console.error("Format π-Time invalide:", piString);
+    return null;
+  }
+
+  return {
+    cycle: parseInt(match[1], 10),
+    sub: parseInt(match[2], 10),
+    position: parseInt(match[3], 10),
+    digit: parseInt(match[4], 10),
+    rawString: piString
+  };
+}
+
+// 4. La Fonction de Vérité (Time-Lock Check)
+// C'est ici que la magie opère : on vérifie l'intégrité mathématique.
+export function verifyPiTimestamp(piTimeInput: string | PiTimestamp): boolean {
+  
+  // Normalisation de l'entrée
+  const piObj = typeof piTimeInput === 'string' 
+    ? parsePiTime(piTimeInput) 
+    : piTimeInput;
+
+  if (!piObj) return false;
+
+  // ÉTAPE CLÉ : On recalcule la vérité mathématique
+  // "À la position X, quel est le VRAI chiffre de π ?"
+  const trueDigit = computePiDigit(piObj.position);
+
+  // Comparaison : Le temps déclaré correspond-il à la constante universelle ?
+  const isValid = piObj.digit === trueDigit;
+
+  if (!isValid) {
+    console.warn(`🚨 ALERTE: Dissonance Temporelle détectée ! (Reçu: ${piObj.digit}, Attendu: ${trueDigit})`);
+  }
+
+  return isValid;
+}
 ```
 
 Même si ce repo est orienté UI, ces primitives peuvent être réutilisées pour :
