@@ -216,7 +216,7 @@ Les gains proviennent de deux sources complémentaires :
 
 Lichen‑OS introduit une approche nouvelle de l’optimisation des data centers : au lieu de pousser toujours plus loin le matériel, il propose de **réorganiser la logique de traitement** pour se rapprocher du fonctionnement du cerveau humain.
 
-En combinant **Low‑Entropy Spiral (LES)** et **Cognitive Entropy Minimization Loop (CEML)**, un prototype fonctionnel démontre des économies d’énergie de l’ordre de **67,5%**. Ce travail ouvre la voie aux **Data Centers Cognitifs**.
+En combinant **Low‑Entropy Spiral (LES)** et **Cognitive Entropy Minimization Loop (CEML)**, un prototype fonctionnel démontre des économies d’énergie de l’ordre de **60%**. Ce travail ouvre la voie aux **Data Centers Cognitifs**.
 
 ---
 
