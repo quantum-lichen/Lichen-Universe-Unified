@@ -126,6 +126,20 @@ const pi = calculatePiTime(new Date());
 // π‑Time → Date
 const date = parsePiTime("π1234.057.890321.4");
 // date instanceof Date
+
+// Concept de vérification d'intégrité temporelle
+function verifyPiTimestamp(piTime: string): boolean {
+  // 1. Extrait le CYCLE, la POSITION et le DIGIT déclaré
+  const { cycle, position, claimedDigit } = parse(piTime);
+  
+  // 2. Calcule le VRAI digit de π à cette position mathématique
+  // (Utilise l'algo BBP - Bailey–Borwein–Plouffe pour aller vite)
+  const trueDigit = computePiDigit(cycle, position);
+  
+  // 3. Si ça ne matche pas, le timestamp est corrompu ou falsifié
+  return claimedDigit === trueDigit;
+}
+
 ```
 
 Même si ce repo est orienté UI, ces primitives peuvent être réutilisées pour :
