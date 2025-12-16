@@ -10,6 +10,8 @@
 
 > **"Le noyau respire, la spirale s'ouvre."** — *Lichen Manifesto*
 
+https://drive.google.com/file/d/1SnMx8Jz3exjPzP_Vc2BBaGICvBhCwqbQ/view?usp=sharing
+
 ---
 
 ## 🌟 Vision : Réinventer l'Informatique
