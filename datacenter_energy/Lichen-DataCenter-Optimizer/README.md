@@ -13,3 +13,22 @@ Les data centers consomment **1-1,5% de l'électricité mondiale**. Ce projet ut
 git clone https://github.com/[ton-pseudo]/Lichen-DataCenter-Optimizer.git
 cd Lichen-DataCenter-Optimizer
 pip install -r requirements.txt
+
+🚀 Utilisation
+bash
+Copier
+
+# Lancer une simulation basique
+python src/simulations/basic_sim.py
+
+# Lancer la simulation optimisée (LES + CEML)
+python src/simulations/les_ceml_sim.py
+
+📊 Résultats
+Les graphiques sont générés dans docs/results/.
+📜 Théorie
+
+Low-Entropy Spiral (LES)
+Cognitive Entropy Minimization Loop (CEML)
+🤝 Contribuer
+Les pull requests sont les bienvenues ! (Surtout pour affiner les équations LES/CEML.)
