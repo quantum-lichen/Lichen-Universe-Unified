@@ -48,7 +48,6 @@ Un système de déduplication sémantique qui apprend des calculs passés pour n
 | **Conso. Énergie** | 100% | **~32.5%** |
 | **Économie** | 0% | **📉 -67.5%** |
 
-*(Graphiques détaillés disponibles dans `docs/results/`)*
 
 ---
 
