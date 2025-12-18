@@ -1,6 +1,7 @@
-# 🌌 Lichen Universe — Unified Architecture
+[![PHI-COMPILER](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://phi-compiler-mf3oybgxa9hcwpmksnfhrq.streamlit.app/)
 
-> *"Le noyau respire, la spirale s'ouvre."*
+🌌 Lichen Universe — Unified Architecture
+"Le noyau respire, la spirale s'ouvre."
 
 [![License](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 [![Repos](https://img.shields.io/badge/Repos-49-green.svg)](https://github.com/quantum-lichen?tab=repositories)
