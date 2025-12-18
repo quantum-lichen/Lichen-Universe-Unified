@@ -1,4 +1,4 @@
-# 🟢 **LICHEN STORAGE** : Stockage **IMMORTEL**
+# 🟢 **LICHEN STORAGE** : Stockage **ULTRA RÉSILIANT**
 
 [![LIVE DEMO](https://img.shields.io/badge/LIVE-DEMO-00D4AA?style=for-the-badge&logo=streamlit&logoColor=white)](https://lichenstorageapp-fsf6drmgbngcqgdberwygn.streamlit.app/)
 [![⭐ 155k+](https://img.shields.io/badge/STARS-155k%2B-emerald?style=for-the-badge&logo=github&logoColor=white)](https://github.com/quantum-lichen/Lichen.Storage_streamlit)
