@@ -474,5 +474,5 @@ Et tous les futurs contributeurs. 💚
 </p>
 
 <p align="center">
-  <sub>Dernière mise à jour: Décembre 2024</sub>
+  <sub>Dernière mise à jour: Décembre 2025</sub>
 </p>
