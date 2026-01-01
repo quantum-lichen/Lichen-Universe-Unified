@@ -53,8 +53,8 @@
       {"name": "Grok", "org": "xAI", "role": "Validation & testing"}
     ],
     "license": {
-      "type": "AGPL-3.0",
-      "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "type": "**CUSTOM SEE LICENSE FILE**",
+      "url": "https://quantum-lichen.github.io/quantum-lichen/Lichen-Universe-Unified/blob/main/LCENSE",
       "commercial_use": false,
       "modifications_allowed": true,
       "distribution_allowed": true,
